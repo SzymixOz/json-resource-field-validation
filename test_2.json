@@ -1,0 +1,16 @@
+{
+    "PolicyName": "root",
+    "PolicyDocument": {
+        "Version": "2015-10-17",
+        "Statement": [
+            {
+                "Sid": "IamListAccess",
+                "Effect": "Allow",
+                "Action": [
+                    "iam:ListRoles"
+                ],
+                "Resource": "sdfsfdw"
+            }
+        ]
+    }
+}
